@@ -1,0 +1,4677 @@
+[
+  {
+    "conversation_ID": 1,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Mr . Bryant ? Hi , I'm Mike from Florence Incorporated . I'll glad you made it okay . How was your flight ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "It was pretty bumpy , also a bit long , all together about 5 hours .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "That is a long flight . You had a layover too , is that right ? You must be tired .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "Actually I feel quite rested . I was able to sleep on the plane .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "Good ! Here , let me help you with your bag . Is it your first time to Seattle ? I'd be happy to take you around this city and show you the sights tonight if you're up to it .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "That will be very nice . You're too kind .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "I've already made a hotel reservation for you , let's go to the hotel first and drop off your things . Then , I'd like to have a drink so that we can get better acquainted . I've booked a table at an exclusive restaurant downtown . Afterwards , I've made arrangements to take you to see the city lights . Seattle ' s nightlife can be really quite exciting . How does that schedule sound to you ?",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "Sounds great . Thank you for your hospitality .",
+        "speaker": "B",
+        "emotion": "happiness"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "5_happiness",
+        "4_Actually I feel quite rested . I was able to sleep on the plane ."
+      ],
+      [
+        "5_happiness",
+        "5_happy to take you around this city and show you the sights tonight if you're up to it ."
+      ],
+      [
+        "6_happiness",
+        "5_happy to take you around this city and show you the sights tonight if you're up to it ."
+      ],
+      [
+        "7_happiness",
+        "6_That will be very nice . You're too kind ."
+      ],
+      [
+        "8_happiness",
+        "7_I've already made a hotel reservation for you , let's go to the hotel first and drop off your things . Then , I'd like to have a drink so that we can get better acquainted . I've booked a table at an exclusive restaurant downtown . Afterwards , I've made arrangements to take you to see the city lights . Seattle ' s nightlife can be really quite exciting . How does that schedule sound to you ?"
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 2,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "I can't stand the stupid guy any longer . It ' s unbelievable !",
+        "speaker": "A",
+        "emotion": "anger"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "Oh , my dear lady . Take it easy . You should forgive a green hand like him .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "He does everything so mindlessly that he is going to drive me crazy .",
+        "speaker": "A",
+        "emotion": "anger"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "I suggest you talk with him and teach him how to deal with the problems .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "I have told him how to do it several times , but he's never listened to me .",
+        "speaker": "A",
+        "emotion": "anger"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "Maybe you should communicate with him just like a friend and not a boss .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "Oh , I always have difficulty in getting along with the staff .",
+        "speaker": "A",
+        "emotion": "anger"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "Just take them for your good friends and have a talk with them as we do , make sure you don't lose your temper .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "I think that's a bad idea . I'd hate anyone here to think of me as a friend . How would they ever respect me as they can do whatever they want ?",
+        "speaker": "A",
+        "emotion": "disgust"
+      },
+      {
+        "utterance_ID": 10,
+        "text": "I disagree . All you have to do is respect the staff and their opinions .",
+        "speaker": "B",
+        "emotion": "neutral"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "1_anger",
+        "1_I can't stand the stupid guy any longer ."
+      ],
+      [
+        "3_anger",
+        "1_I can't stand the stupid guy any longer ."
+      ],
+      [
+        "3_anger",
+        "3_He does everything so mindlessly"
+      ],
+      [
+        "5_anger",
+        "5_I have told him how to do it several times , but he's never listened to me ."
+      ],
+      [
+        "7_anger",
+        "7_Oh , I always have difficulty in getting along with the staff ."
+      ],
+      [
+        "9_disgust",
+        "8_Just take them for your good friends"
+      ],
+      [
+        "9_disgust",
+        "9_I'd hate anyone here to think of me as a friend . How would they ever respect me as they can do whatever they want ?"
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 3,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Excuse me , is this the way to the Great Wall ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "Oh , it is really far from here . You ' re going in the wrong direction actually .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "I must have taken a wrong turn .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "It doesn ' t matter . Go back the way you came . After about five kilometers , you ' ll see a hotel on the side of the road . It ' s a big one . You can ' t miss it .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "And then ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "Take the next right . Drive about one click further , and you ' ll see the entrance of the highway to the Great Wall .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "Thanks a lot .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "You ' re welcome .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "By the way , how long does it take ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 10,
+        "text": "Without traffic , it takes about an hour .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 11,
+        "text": "I heard the Great Wall closes early in the afternoon . Do you think I can make it before closing ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 12,
+        "text": "Yes , I think so . It doesn ' t close until 5 o ' clock . You still have plenty of time .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 13,
+        "text": "Great ! Thank you !",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 14,
+        "text": "My pleasure , and have a good time !",
+        "speaker": "B",
+        "emotion": "happiness"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "7_happiness",
+        "3_I must have taken a wrong turn ."
+      ],
+      [
+        "7_happiness",
+        "6_Take the next right ."
+      ],
+      [
+        "8_happiness",
+        "7_Thanks"
+      ],
+      [
+        "13_happiness",
+        "12_You still have plenty of time ."
+      ],
+      [
+        "14_happiness",
+        "13_Thank you !"
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 4,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Hello , ma ' am . Can I help you ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "I ' m looking for a sweater .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "What size are you looking for ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "Well , I ' m looking for size 10 but you don ' t have it .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "How about this one ? I think it looks terrific on you .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "Yes , I like the color . Can I try it on ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "Sure . The fitting room is on your right .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "It fits well . I like it a lot . What do you think ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "You look pretty in red .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 10,
+        "text": "Oh , it ' s my favorite . How much is it ?",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 11,
+        "text": "$ 29 . 99 .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 12,
+        "text": "Okay . I ' ll take it . Thank you very much for your help .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 13,
+        "text": "You ' re welcome .",
+        "speaker": "A",
+        "emotion": "happiness"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "5_happiness",
+        "5_it looks terrific"
+      ],
+      [
+        "7_happiness",
+        "5_it looks terrific"
+      ],
+      [
+        "7_happiness",
+        "6_I like the color ."
+      ],
+      [
+        "9_happiness",
+        "5_it looks terrific"
+      ],
+      [
+        "9_happiness",
+        "6_I like the color ."
+      ],
+      [
+        "9_happiness",
+        "8_It fits well . I like it a lot ."
+      ],
+      [
+        "9_happiness",
+        "9_You look pretty"
+      ],
+      [
+        "10_happiness",
+        "9_You look pretty in red ."
+      ],
+      [
+        "10_happiness",
+        "10_it ' s my favorite ."
+      ],
+      [
+        "12_happiness",
+        "9_You look pretty in red ."
+      ],
+      [
+        "12_happiness",
+        "10_it ' s my favorite ."
+      ],
+      [
+        "12_happiness",
+        "12_Thank you"
+      ],
+      [
+        "13_happiness",
+        "12_I ' ll take it . Thank you"
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 5,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Yeah , I ' Ve just moved here , and I ' d like to activate my cell phone , and I ' m not sure if I should go with a prepaid plan , or a monthly rate plan .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "I see . Well , can I have a look at your phone ? Unfortunately , this phone can ' t be used in the US . it ' s not compatible with our 3G network .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "What ? Really ? I don ' t really want to have to buy a new phone .",
+        "speaker": "A",
+        "emotion": "surprise"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "Well , you ' re in luck ! You see , if you sign up for our three-year plan , we ' ll throw in a handset for free .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "Really ? What ' s the catch ?",
+        "speaker": "A",
+        "emotion": "surprise"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "There ' s no catch ! You just choose a plan , sign a three-year contract and , that ' s it ! Actually , we ' re running a special promotion right now , and we ' regiving away a Blackberry Curve with our special Mega Value forty dollar plan .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "So what does this plan include ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "Well , you get nine hundred anytime minutes , and you can also enjoy free mobile to mobile calling to other Tel-Mobile clients , one thousand text messages per month , and unlimited evening and weekend minutes . Oh , and we also offer a rollover option .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "Wow , all this for forty dollars per month ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 10,
+        "text": "That ' s right , plus the activation fee , the emergency services fee , the monthly service fee , oh , and any charges for extra minutes , and ...",
+        "speaker": "B",
+        "emotion": "neutral"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "3_surprise",
+        "2_this phone can ' t be used in the US . it ' s not compatible with our 3G network ."
+      ],
+      [
+        "4_happiness",
+        "3_I don ' t really want to have to buy a new phone ."
+      ],
+      [
+        "4_happiness",
+        "4_if you sign up for our three-year plan , we ' ll throw in a handset for free ."
+      ],
+      [
+        "5_surprise",
+        "4_if you sign up for our three-year plan , we ' ll throw in a handset for free ."
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 6,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Ahem ... uh , sir , I beg your pardon ... Uh , mister , are you waiting to buy a ticket for the movie ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "What's it look like , lady ? This is the ticket line I'm standing in , isn't it ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "Well , yes , it is , but ...",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "So , what's your beef anyway , lady ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "You just cut into line , in front of me and everyone else , that's what ! Go take your place back at the end of the line , like every - one else !",
+        "speaker": "A",
+        "emotion": "anger"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "Oh sure , lady , and fat chance I'd get a ticket before they're sold out . I'm staying right here , understand ? So be a nice lady and butt out !",
+        "speaker": "B",
+        "emotion": "anger"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "Just what gives you the right ... ?",
+        "speaker": "A",
+        "emotion": "anger"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "Because I'm no sucker ; only suckers go to the end of the line . It's as simple as that , lady .",
+        "speaker": "B",
+        "emotion": "anger"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "Well , you're no gentleman , either .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 10,
+        "text": "Okay , lady , just to show what a gentleman I really am , I'll let you go in front of me . Now , just buy your ticket and shut your trap , will you , lady ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 11,
+        "text": "Whew ! I got the last one . This must be my lucky day !",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 12,
+        "text": "What was that you just said ? Last one ... ? Hey , they've closed the ticket window !",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 13,
+        "text": "Yes , I'm afraid I bought the last ticket , and to think , if you hadn't been such a gentleman . . .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 14,
+        "text": "Lady ! This is unfair ! I've been cheated ! I was in line before you . That should have been my ticket ! Come on , hand it over , lady !",
+        "speaker": "B",
+        "emotion": "anger"
+      },
+      {
+        "utterance_ID": 15,
+        "text": "Gentleman ! Hah ! Fat chance ! Hah ! Eat your heart out , sucker ! Hah !",
+        "speaker": "A",
+        "emotion": "anger"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "5_anger",
+        "5_You just cut into line , in front of me and everyone else"
+      ],
+      [
+        "6_anger",
+        "5_Go take your place back at the end of the line , like every - one else !"
+      ],
+      [
+        "6_anger",
+        "6_fat chance I'd get a ticket before they're sold out . I'm staying right here , understand ? So be a nice lady and butt out !"
+      ],
+      [
+        "7_anger",
+        "5_You just cut into line , in front of me and everyone else"
+      ],
+      [
+        "7_anger",
+        "5_Go take your place back at the end of the line , like every - one else !"
+      ],
+      [
+        "7_anger",
+        "6_I'm staying right here , understand ? So be a nice lady and butt out !"
+      ],
+      [
+        "8_anger",
+        "8_Because I'm no sucker ; only suckers go to the end of the line ."
+      ],
+      [
+        "11_happiness",
+        "11_Whew ! I got the last one ."
+      ],
+      [
+        "14_anger",
+        "13_I bought the last ticket ,"
+      ],
+      [
+        "14_anger",
+        "14_Lady ! This is unfair ! I've been cheated ! I was in line before you . That should have been my ticket !"
+      ],
+      [
+        "15_anger",
+        "5_You just cut into line , in front of me and everyone else"
+      ],
+      [
+        "15_anger",
+        "5_Go take your place back at the end of the line , like every - one else !"
+      ],
+      [
+        "15_anger",
+        "6_I'm staying right here , understand ? So be a nice lady and butt out !"
+      ],
+      [
+        "15_anger",
+        "13_I bought the last ticket ,"
+      ],
+      [
+        "15_anger",
+        "14_Lady ! This is unfair ! I've been cheated ! I was in line before you . That should have been my ticket !"
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 7,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "What's wrong , officer ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "You do realize that you ran a red light , don't you ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "I did ?",
+        "speaker": "A",
+        "emotion": "surprise"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "You didn't see the red light ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "I'm sorry for running it , but I really didn't know .",
+        "speaker": "A",
+        "emotion": "sadness"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "Didn't you learn that red means stop ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "I know that .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "Then tell me why you sped up on the yellow light .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "I'm not sure .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 10,
+        "text": "I'm giving you a ticket for this .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 11,
+        "text": "I'm sorry for the misunderstanding .",
+        "speaker": "A",
+        "emotion": "sadness"
+      },
+      {
+        "utterance_ID": 12,
+        "text": "Maybe you'll think about this before you decide to run another light .",
+        "speaker": "B",
+        "emotion": "neutral"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "3_surprise",
+        "2_you ran a red light"
+      ],
+      [
+        "5_sadness",
+        "5_I'm sorry for running it"
+      ],
+      [
+        "11_sadness",
+        "10_I'm giving you a ticket for this ."
+      ],
+      [
+        "11_sadness",
+        "11_I'm sorry for the misunderstanding ."
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 8,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "All the food smells tasty today and makes my mouth water .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "Let's line up here . This line seems a little shorter .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "What's on the menu today ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "Fish , beef , pork , chicken , vegetables and beancurd . For staple food we have rice , steamed bread , stuffed buns and noodles .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "Oh , we're lucky today , aren't we ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "I'd rather take stewed cabbage with beef .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "I think I'll take fried fish , because fish is one of my favorites .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "That's good , we can share what we have . Here we are . You go ahead .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "( They get everything ready ) Here is a free table . Let's sit down . Help yourself to some fish please . Isn't it delicious and appetizing ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 10,
+        "text": "I'm sorry I don't like it's a little too salty .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 11,
+        "text": "I see . You people from south prefer sweet , don't you ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 12,
+        "text": "Yes , I like the fish cooked in sweet and sour sauce best . Try some beef , please .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 13,
+        "text": "Thank you . I'm through with one steamed bread and I'd like a second helping .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 14,
+        "text": "Your appetite is good .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 15,
+        "text": "I'm always feeling hungry .",
+        "speaker": "A",
+        "emotion": "neutral"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "1_happiness",
+        "1_food smells tasty"
+      ],
+      [
+        "8_happiness",
+        "7_fish is one of my favorites ."
+      ],
+      [
+        "8_happiness",
+        "8_we can share"
+      ],
+      [
+        "13_happiness",
+        "12_Try some beef , please ."
+      ],
+      [
+        "14_happiness",
+        "14_Your appetite is good ."
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 9,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Hi ! Is that the new laptop you brought last week ? It looks very nice .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "Yes , it is . Thanks . I ' m just surfing on the internet .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "Here ? In this cafe ? How can you do that ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "This cafe offers a wireless internet connection . That means I can get on the net for free while I ' m here . Of course , I have to buy a cup of coffee !",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "That ' s great . Can you do it anywhere ?",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "No . you can only do it when the cafe offers a wireless connection . There are only about 10 or 12 places that offer it in this city .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "So , what programs do you have on your laptop ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "I ' Ve got all the usual ones for word processing and then I have a few for creating and editing photographs .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "I know you are keen on photography . It ' s very useful for you to be able to download photos from your digital camera . Then you attach the picture files to emails and send them to anyone , anywhere , at a",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 10,
+        "text": "It ' s wonderful , isn ' t it ? Would you like to see some photos that I took recently ?",
+        "speaker": "B",
+        "emotion": "happiness"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "1_happiness",
+        "1_It looks very nice ."
+      ],
+      [
+        "2_happiness",
+        "1_It looks very nice ."
+      ],
+      [
+        "2_happiness",
+        "1_It looks very nice ."
+      ],
+      [
+        "2_happiness",
+        "2_Yes ,"
+      ],
+      [
+        "5_happiness",
+        "4_I can get on the net for free"
+      ],
+      [
+        "10_happiness",
+        "10_It ' s wonderful , isn ' t it ?"
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 10,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Good morning .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "Good morning . This is Mary . Can I speak to Anne please ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "I ' m sorry She isn ' t in at the momment . She will come back at half past nineCan I take a message for her ?",
+        "speaker": "A",
+        "emotion": "sadness"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "Thank you . But I will call her later",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "OK . Goodbye .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "Goodbye .",
+        "speaker": "B",
+        "emotion": "happiness"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "3_sadness",
+        "3_She isn ' t in at the momment ."
+      ],
+      [
+        "4_happiness",
+        "3_Can I take a message for her ?"
+      ],
+      [
+        "5_happiness",
+        "4_Thank you ."
+      ],
+      [
+        "6_happiness",
+        "5_Goodbye ."
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 11,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Honey , the house is such a mess ! I need you to help me tidy up a bit . My boss and her husband are coming over for dinner and the house needs to be spotless !",
+        "speaker": "A",
+        "emotion": "disgust"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "I ' m in the middle of something right now . I ' ll be there in a second .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "This can ' t wait ! I need your help now !",
+        "speaker": "A",
+        "emotion": "fear"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "Alright , alright . I ' m coming .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "Ok , here ' s a list of chores we need to get done . I'll do the dishes and get all the groceries for tonight . You can sweep and mop the floors . Oh , and the furniture needs to be dusted .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "You know what , I have to pick something up at the mall , so why don ' t you clean the floors and I'll go to the supermarket and get all the groceries .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "Sure that ' s fine . Here is the list of all the things you need to get . Don't forget anything ! And can you pick up a bottle of wine on your way home ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "Hey , honey I ' m back . Wow , the house looks really good !",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "Great ! Can you set the table ?",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 10,
+        "text": "Just a sec I ' m just gonna vacuum this rug real fast .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 11,
+        "text": "Wait ! Don ' t turn it on ...",
+        "speaker": "A",
+        "emotion": "neutral"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "1_disgust",
+        "1_the house is such a mess !"
+      ],
+      [
+        "3_fear",
+        "3_This can ' t wait ! I need your help now !"
+      ],
+      [
+        "8_happiness",
+        "8_the house looks really good !"
+      ],
+      [
+        "9_happiness",
+        "8_the house looks really good !"
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 12,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Good morning , May . Good girl , you are reading English books again .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "Good morning . There is no reason to miss so beautiful a morning . Is that a new bird ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "Oh , yes , my daughter bought it yesterday . We call her Lulu .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "It looks so cute . Is it a parrot ?",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "Yes . Just look at her colorful feathers . What else can it be ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "I see . It's interesting that there is also a parrot in my English book . His mane is Polly .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "Really ? A foreign parrot !",
+        "speaker": "A",
+        "emotion": "surprise"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "He can speak English , too .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "Maybe you can teach Lulu some English words .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 10,
+        "text": "Lulu . Lulu . Say hello . hello . Oh , she is so smart . Good bird .",
+        "speaker": "B",
+        "emotion": "happiness"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "4_happiness",
+        "4_It looks so cute ."
+      ],
+      [
+        "6_happiness",
+        "4_It looks so cute ."
+      ],
+      [
+        "7_surprise",
+        "6_It's interesting that there is also a parrot in my English book . His mane is Polly ."
+      ],
+      [
+        "10_happiness",
+        "4_It looks so cute ."
+      ],
+      [
+        "10_happiness",
+        "10_Oh , she is so smart . Good bird ."
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 13,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Bob , can I talk to you for a minute ? There have been some developments for the Stewart case that I really need to talk to you about .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "Yeah , what's the matter now ? We've had so much trouble with this case already . Don't tell me there's more bad news .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "Well , I'm afraid there is . I have some bad news for you about the results of the forensic tests ... there won't be any results .",
+        "speaker": "A",
+        "emotion": "sadness"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "What ? What does that mean ? Why won't there be any results ?",
+        "speaker": "B",
+        "emotion": "surprise"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "I hate to tell you this , but it seems that every shred of evidence that would help us to convict were destroyed in a laboratory fire . There's nothing left . I'm so sorry ...",
+        "speaker": "A",
+        "emotion": "sadness"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "Oh , no , you can't be serious . I never expect anything like this would happened . What are we going to do ?",
+        "speaker": "B",
+        "emotion": "surprise"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "There's nothing that can be done . Everything is gone . I wish I could tell you differently , but what has happened has happened . We will just have to figure out a way to move on .",
+        "speaker": "A",
+        "emotion": "sadness"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "3_sadness",
+        "3_I have some bad news"
+      ],
+      [
+        "3_sadness",
+        "3_there won't be any results ."
+      ],
+      [
+        "4_surprise",
+        "3_there won't be any results ."
+      ],
+      [
+        "4_surprise",
+        "4_Why won't there be any results ?"
+      ],
+      [
+        "5_sadness",
+        "3_I have some bad news"
+      ],
+      [
+        "5_sadness",
+        "3_there won't be any results ."
+      ],
+      [
+        "5_sadness",
+        "5_every shred of evidence that would help us to convict were destroyed in a laboratory fire . There's nothing left ."
+      ],
+      [
+        "6_surprise",
+        "3_there won't be any results ."
+      ],
+      [
+        "6_surprise",
+        "4_Why won't there be any results ?"
+      ],
+      [
+        "6_surprise",
+        "5_every shred of evidence that would help us to convict were destroyed in a laboratory fire . There's nothing left ."
+      ],
+      [
+        "6_surprise",
+        "6_I never expect anything like this"
+      ],
+      [
+        "7_sadness",
+        "3_I have some bad news"
+      ],
+      [
+        "7_sadness",
+        "3_there won't be any results ."
+      ],
+      [
+        "7_sadness",
+        "5_every shred of evidence that would help us to convict were destroyed in a laboratory fire . There's nothing left ."
+      ],
+      [
+        "7_sadness",
+        "7_There's nothing that can be done . Everything is gone ."
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 14,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "So , Casey , how are things going with the photos for the press kit ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "Yeah , I ' Ve been meaning to talk to you about that . I might need to ask for an extension on that deadline .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "You ' Ve had over a month to get this finalized ! Why are things delayed ?",
+        "speaker": "A",
+        "emotion": "anger"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "Well , the thing is , we ran into a lot of problems . . .",
+        "speaker": "B",
+        "emotion": "sadness"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "I ' m not looking for excuses here . I just want to get this finished on time !",
+        "speaker": "A",
+        "emotion": "anger"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "I know , and I apologize for the delay . But some things were just beyond my control . I had trouble booking the photographer , and then Michael was sick for three weeks , so I couldn ' t include him in the photos , and the design team lost all the files , so I had to re-do the pictures .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "I ' m not going to put this off any longer , Casey ! I want those photos ASAP !",
+        "speaker": "A",
+        "emotion": "anger"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "3_anger",
+        "2_need to ask for an extension"
+      ],
+      [
+        "3_anger",
+        "3_You ' Ve had over a month"
+      ],
+      [
+        "3_anger",
+        "3_Why are things delayed ?"
+      ],
+      [
+        "4_sadness",
+        "4_we ran into a lot of problems"
+      ],
+      [
+        "5_anger",
+        "2_need to ask for an extension"
+      ],
+      [
+        "5_anger",
+        "3_You ' Ve had over a month"
+      ],
+      [
+        "5_anger",
+        "3_Why are things delayed ?"
+      ],
+      [
+        "5_anger",
+        "5_I ' m not looking for excuses"
+      ],
+      [
+        "7_anger",
+        "2_need to ask for an extension"
+      ],
+      [
+        "7_anger",
+        "3_You ' Ve had over a month"
+      ],
+      [
+        "7_anger",
+        "3_Why are things delayed ?"
+      ],
+      [
+        "7_anger",
+        "5_I ' m not looking for excuses"
+      ],
+      [
+        "7_anger",
+        "7_I ' m not going to put this off any longer ,"
+      ],
+      [
+        "7_anger",
+        "7_I want those photos ASAP !"
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 15,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "It's a beautiful day ! Let's play on those rides in the park .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "Sounds like a good idea . I love to play on the jungle gym .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "Me too . I love to play on the swing as well . Swing is my favorite .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "That's great . Then we won't fight over taking the same ride .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "Look at the flowers over there . What are they ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "They are morning glories . They are cute , aren't they ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "They are . We can find many different kinds of flowers and insects in the park .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "I think so . Last time I saw dandelions and ladybugs near the pond .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "If you come to the park in the morning , you can find squirrels running on the lawn .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 10,
+        "text": "It's really healthy to do some exercise there . The air is fresher and it's romantic to watch the sunset with your lover .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 11,
+        "text": "Well , off we go . I am sure we can have a great time .",
+        "speaker": "A",
+        "emotion": "happiness"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "1_happiness",
+        "1_It's a beautiful day !"
+      ],
+      [
+        "2_happiness",
+        "1_Let's play on those rides in the park ."
+      ],
+      [
+        "2_happiness",
+        "2_good idea ."
+      ],
+      [
+        "2_happiness",
+        "2_I love to play on the jungle gym ."
+      ],
+      [
+        "3_happiness",
+        "1_It's a beautiful day !"
+      ],
+      [
+        "3_happiness",
+        "2_I love to play on the jungle gym ."
+      ],
+      [
+        "3_happiness",
+        "3_I love to play on the swing"
+      ],
+      [
+        "4_happiness",
+        "1_Let's play on those rides in the park ."
+      ],
+      [
+        "4_happiness",
+        "2_good idea ."
+      ],
+      [
+        "4_happiness",
+        "2_I love to play on the jungle gym ."
+      ],
+      [
+        "4_happiness",
+        "3_I love to play on the swing"
+      ],
+      [
+        "4_happiness",
+        "3_Swing is my favorite ."
+      ],
+      [
+        "4_happiness",
+        "4_we won't fight"
+      ],
+      [
+        "10_happiness",
+        "10_It's really healthy"
+      ],
+      [
+        "10_happiness",
+        "10_The air is fresher and it's romantic"
+      ],
+      [
+        "11_happiness",
+        "11_we can have a great time ."
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 16,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Won't you have some of this ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "Yes , thanks .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "It's my grandmother's favorite recipe for barbecue .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "It's very good . How do you make it ?",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "I use a special dressing and homemade catsup .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "This salad looks so nice-just right for a hot day .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "I'm glad you like it .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "You Americans usually have nutritious food .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "Oh , but Chinese food is so delicious . I wish I knew how to cook Chinese food . Do you follow recipes ?",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 10,
+        "text": "We use different spices but few people use recipes . They learn to cook by experience .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 11,
+        "text": "I always use a recipe but my grandmother never did . She was a great cook . She would make clam chowder and cornbread every Sunday night .",
+        "speaker": "A",
+        "emotion": "neutral"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "2_happiness",
+        "1_Won't you have some of this ?"
+      ],
+      [
+        "4_happiness",
+        "4_It's very good ."
+      ],
+      [
+        "6_happiness",
+        "4_It's very good ."
+      ],
+      [
+        "6_happiness",
+        "6_This salad looks so nice-just right for a hot day ."
+      ],
+      [
+        "7_happiness",
+        "6_This salad looks so nice-just right for a hot day ."
+      ],
+      [
+        "7_happiness",
+        "7_I'm glad you like it ."
+      ],
+      [
+        "9_happiness",
+        "9_Chinese food is so delicious . I wish I knew how to cook Chinese food ."
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 17,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Oh hi , Linda , this is Todd .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "Yes , Todd , how nice to hear your voice !",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "Linda , I just wanted to say that I had a wonderful evening with you last Friday .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "I really enjoyed our evening together , Todd .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "I had fun also and was wondering if you would like to go hiking with me in the mountains on Saturday .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "Hiking would be perfect ! May I bring along a picnic lunch for us to share ?",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "A picnic lunch would be a nice thing to have along .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "I'll work on the lunch , and you can work out the details of where we will go . What time will you be at my house ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "Nine would be good , don't you think ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 10,
+        "text": "Nine is good . See you on Saturday !",
+        "speaker": "B",
+        "emotion": "neutral"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "2_happiness",
+        "2_hear your voice !"
+      ],
+      [
+        "3_happiness",
+        "2_how nice to hear your voice !"
+      ],
+      [
+        "3_happiness",
+        "3_I had a wonderful evening with you last Friday ."
+      ],
+      [
+        "4_happiness",
+        "3_I had a wonderful evening with you last Friday ."
+      ],
+      [
+        "4_happiness",
+        "4_I really enjoyed our evening together"
+      ],
+      [
+        "5_happiness",
+        "3_I had a wonderful evening with you last Friday ."
+      ],
+      [
+        "5_happiness",
+        "4_I really enjoyed our evening together"
+      ],
+      [
+        "5_happiness",
+        "5_wondering if you would like to go hiking with me in the mountains on Saturday ."
+      ],
+      [
+        "6_happiness",
+        "3_I had a wonderful evening with you last Friday ."
+      ],
+      [
+        "6_happiness",
+        "4_I really enjoyed our evening together"
+      ],
+      [
+        "6_happiness",
+        "5_wondering if you would like to go hiking with me in the mountains on Saturday ."
+      ],
+      [
+        "6_happiness",
+        "6_Hiking would be perfect ! May I bring along a picnic lunch for us to share ?"
+      ],
+      [
+        "7_happiness",
+        "3_I had a wonderful evening with you last Friday ."
+      ],
+      [
+        "7_happiness",
+        "4_I really enjoyed our evening together"
+      ],
+      [
+        "7_happiness",
+        "5_wondering if you would like to go hiking with me in the mountains on Saturday ."
+      ],
+      [
+        "7_happiness",
+        "6_Hiking would be perfect ! May I bring along a picnic lunch for us to share ?"
+      ],
+      [
+        "7_happiness",
+        "7_A picnic lunch would be a nice thing to have along ."
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 18,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Good afternoon , madam . Is there anything I can do for you ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "Yes , I spent so much time sightseeing here . It is already so late now . I am afraid I can't catch the last bus back to downtown .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "Don't worry . I will try to get a taxi for you . You can take it to the bus station .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "I am very grateful to your help .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "Don't mention it . It is my duty .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "Thanks again .",
+        "speaker": "B",
+        "emotion": "happiness"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "3_happiness",
+        "3_Don't worry . I will try to get a taxi for you ."
+      ],
+      [
+        "4_happiness",
+        "3_I will try to get a taxi for you ."
+      ],
+      [
+        "5_happiness",
+        "3_Don't worry . I will try to get a taxi for you ."
+      ],
+      [
+        "5_happiness",
+        "4_I am very grateful"
+      ],
+      [
+        "6_happiness",
+        "3_I will try to get a taxi for you ."
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 19,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Hi , are you being helped ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "No , I'm not . I am interested in some scarves .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "All our scarves are in this section . What do you think of this one here ? It's made of silk .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "Hm , It looks nice , but I ' d like to have something warm for the winter .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "Maybe you would like a heavy wool scarves . How about this one ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "I think that's what I want . How much is it ?",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "It's 75 dollars plus tax .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "It's a little expensive . Do you think it's possible to get a discount ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "Since you like it so much , how about a 10 % discount ? That's the best I can offer .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 10,
+        "text": "That's good . Could you wrap it for me ?",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 11,
+        "text": "Sure . Is there anything else I can get for you ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 12,
+        "text": "No , that should be it . Thank you !",
+        "speaker": "B",
+        "emotion": "happiness"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "4_happiness",
+        "3_It's made of silk ."
+      ],
+      [
+        "4_happiness",
+        "4_looks nice ,"
+      ],
+      [
+        "6_happiness",
+        "5_a heavy wool scarves ."
+      ],
+      [
+        "6_happiness",
+        "6_that's what I want ."
+      ],
+      [
+        "10_happiness",
+        "5_a heavy wool scarves ."
+      ],
+      [
+        "10_happiness",
+        "6_that's what I want ."
+      ],
+      [
+        "10_happiness",
+        "9_a 10 % discount ?"
+      ],
+      [
+        "12_happiness",
+        "5_a heavy wool scarves ."
+      ],
+      [
+        "12_happiness",
+        "6_that's what I want ."
+      ],
+      [
+        "12_happiness",
+        "9_a 10 % discount ?"
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 20,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Staying out all night , you frightened me to death .",
+        "speaker": "A",
+        "emotion": "anger"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "I stayed with my friends .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "You should at least give me a call .",
+        "speaker": "A",
+        "emotion": "anger"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "I'm sorry , Mum .",
+        "speaker": "B",
+        "emotion": "sadness"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "1_anger",
+        "1_Staying out all night , you frightened me to death ."
+      ],
+      [
+        "3_anger",
+        "1_Staying out all night , you frightened me to death ."
+      ],
+      [
+        "3_anger",
+        "3_You should at least give me a call ."
+      ],
+      [
+        "4_sadness",
+        "3_You should at least give me a call ."
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 21,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "We have been over this a hundred times ! We are not getting a pet !",
+        "speaker": "A",
+        "emotion": "anger"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "Why not ? Come on ! Just a cute little puppy or a kitty !",
+        "speaker": "B",
+        "emotion": "anger"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "Who is going to look after a dog or a cat ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "I will ! I ' ll feed it , bathe it and walk it every day ! We can get a Labrador or a German Shepard !",
+        "speaker": "B",
+        "emotion": "anger"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "What if we want to take a vacation ? Who will we leave it with ? Plus , our apartment is too small for that breed of dog .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "Ok . How about we get a cat or a ferret ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "We ' re planning on having children soon , I don ' t think those animals are a good idea with a baby in the house .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "Fine ! Let ' s get a bird then ! We can keep it in its cage and teach it to talk ! A parrot would be awesome !",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "I ' ll tell you what , I can get you some hamsters and we ' ll take it from there .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 10,
+        "text": "Yay !",
+        "speaker": "B",
+        "emotion": "happiness"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "1_anger",
+        "1_We have been over this a hundred times !"
+      ],
+      [
+        "2_anger",
+        "1_We are not getting a pet !"
+      ],
+      [
+        "4_anger",
+        "1_We are not getting a pet !"
+      ],
+      [
+        "10_happiness",
+        "9_I can get you some hamsters and we ' ll take it from there ."
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 22,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Thank you for organizing this great baby shower for me ! I ' Ve always been to baby showers but never actually had one held for me ! Let ' s get started !",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "Ok , let ' s start opening some presents !",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "Oh look ! What a great little bib for the baby ! This will definitely come in handy ! Oh wow , you also got me a stroller ! That ' s so great ! Thank you !",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "This next one is from Betty .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "A highchair and car seat ! Wow Betty , thank you so much ! I really appreciate it !",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "One more from Carla .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "A playpen and crib ! Thanks Carla ! This is just what I needed !",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "OK , that ' s all of them . No more gifts . Now who wants to guess when the baby is due ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "Umm . I think my water just broke ! Get me to a hospital !",
+        "speaker": "A",
+        "emotion": "fear"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "1_happiness",
+        "1_Thank you for organizing this great baby shower for me !"
+      ],
+      [
+        "2_happiness",
+        "1_Thank you for organizing this great baby shower for me !"
+      ],
+      [
+        "2_happiness",
+        "2_let ' s start opening some presents !"
+      ],
+      [
+        "3_happiness",
+        "3_What a great little bib for the baby ! This will definitely come in handy ! Oh wow , you also got me a stroller !"
+      ],
+      [
+        "5_happiness",
+        "5_A highchair and car seat !"
+      ],
+      [
+        "5_happiness",
+        "5_I really appreciate it !"
+      ],
+      [
+        "7_happiness",
+        "7_A playpen and crib !"
+      ],
+      [
+        "7_happiness",
+        "7_This is just what I needed !"
+      ],
+      [
+        "9_fear",
+        "9_I think my water just broke !"
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 23,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "I ' m hungry , let ' s go grab a bite to eat .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "Yeah me too . Oh ! Can we stop at the shop really fast ? I lost my makeup bag at the airport and I want to pick up a few things .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "Will you take long ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "No ! Five minutes I promise !",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "Come on ! We have been here for almost an hour ! I thought you said you were only going to get a few things ! How long does it take you to pick out a lipstick and some nail polish !",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "Are you crazy ? You have no idea what you are talking about ! Just for my eyes I have to get eye-liner , an eyelash curler , eye shadow , an eyebrow pencil and mascara . Then I need to get foundation , liq",
+        "speaker": "B",
+        "emotion": "surprise"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "Whoa whoa whoa ! Are you nuts ? How much is all this going to cost ? I ' m looking at the price at each one of these little things and it ' s outrageous ! This is basically a crayon !",
+        "speaker": "A",
+        "emotion": "anger"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "What about you ? You spend as much or more money on your razors , after shave , cologne and gel ! Not to mention how much you spend on clothes and ...",
+        "speaker": "B",
+        "emotion": "anger"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "Fine ! Get the stupid thirty dollar crayon !",
+        "speaker": "A",
+        "emotion": "anger"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "6_surprise",
+        "5_I thought you said you were only going to get a few things ! How long does it take you to pick out a lipstick and some nail polish !"
+      ],
+      [
+        "6_surprise",
+        "6_You have no idea what you are talking about ! Just for my eyes I have to get eye-liner , an eyelash curler , eye shadow , an eyebrow pencil and mascara . Then I need to get foundation , liq"
+      ],
+      [
+        "7_anger",
+        "6_Just for my eyes I have to get eye-liner , an eyelash curler , eye shadow , an eyebrow pencil and mascara . Then I need to get foundation , liq"
+      ],
+      [
+        "7_anger",
+        "7_How much is all this going to cost ? I ' m looking at the price at each one of these little things and it ' s outrageous ! This is basically a crayon !"
+      ],
+      [
+        "8_anger",
+        "7_Are you nuts ? How much is all this going to cost ? I ' m looking at the price at each one of these little things and it ' s outrageous !"
+      ],
+      [
+        "8_anger",
+        "8_You spend as much or more money on your razors , after shave , cologne and gel ! Not to mention how much you spend on clothes and ..."
+      ],
+      [
+        "9_anger",
+        "8_You spend as much or more money on your razors , after shave , cologne and gel ! Not to mention how much you spend on clothes and ..."
+      ],
+      [
+        "9_anger",
+        "9_Get the stupid thirty dollar crayon !"
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 24,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Here's some flowers , love . Happy Valentine's Day .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "Those are beautiful . They smell lovely . Thank you .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "This is let you know that I still you after all this years . I knew there are some up and down when I married you , but through at all , you've always been may my Valentine .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "Oh , sweet . You've always been my love too .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "I don't think I say this enough , but I want to thank you for your kind listen patience , you ' Ve always been there for me .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "I'll do everything for you , love . You know that , maybe you didn't realize , but you made everyday a enjoys moment and happy occasion .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "I am so glad we met one another .",
+        "speaker": "A",
+        "emotion": "happiness"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "4_happiness",
+        "1_Here's some flowers , love . Happy Valentine's Day ."
+      ],
+      [
+        "4_happiness",
+        "2_Those are beautiful . They smell lovely ."
+      ],
+      [
+        "4_happiness",
+        "3_I still you after all this years . I knew there are some up and down when I married you , but through at all , you've always been may my Valentine ."
+      ],
+      [
+        "5_happiness",
+        "4_Oh , sweet . You've always been my love too ."
+      ],
+      [
+        "5_happiness",
+        "5_your kind listen patience , you ' Ve always been there for me ."
+      ],
+      [
+        "6_happiness",
+        "1_Here's some flowers , love . Happy Valentine's Day ."
+      ],
+      [
+        "6_happiness",
+        "2_Those are beautiful . They smell lovely ."
+      ],
+      [
+        "6_happiness",
+        "3_I still you after all this years . I knew there are some up and down when I married you , but through at all , you've always been may my Valentine ."
+      ],
+      [
+        "6_happiness",
+        "5_I want to thank you for your kind listen patience , you ' Ve always been there for me ."
+      ],
+      [
+        "6_happiness",
+        "6_you made everyday a enjoys moment and happy occasion ."
+      ],
+      [
+        "7_happiness",
+        "4_Oh , sweet . You've always been my love too ."
+      ],
+      [
+        "7_happiness",
+        "5_your kind listen patience , you ' Ve always been there for me ."
+      ],
+      [
+        "7_happiness",
+        "6_you made everyday a enjoys moment and happy occasion ."
+      ],
+      [
+        "7_happiness",
+        "7_we met one another ."
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 25,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "I think that you look very cute today .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "Is that right ? This is a brand new outfit .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "What store did you get it from ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "I went to Macy's and picked it out .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "I love your outfit right now .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "Well , I think you look nice today too .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "Thanks . I found these new shoes earlier at the store .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "I think that those are some really nice shoes . What kind are they ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "These are Chucks .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 10,
+        "text": "Your shoes look really nice . How much did you get them for ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 11,
+        "text": "They only cost me about forty dollars .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 12,
+        "text": "I'm going to go get a pair for myself .",
+        "speaker": "B",
+        "emotion": "neutral"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "1_happiness",
+        "1_you look very cute"
+      ],
+      [
+        "2_happiness",
+        "1_you look very cute today ."
+      ],
+      [
+        "2_happiness",
+        "2_This is a brand new"
+      ],
+      [
+        "5_happiness",
+        "1_you look very cute"
+      ],
+      [
+        "5_happiness",
+        "5_I love your outfit"
+      ],
+      [
+        "6_happiness",
+        "5_I love your outfit"
+      ],
+      [
+        "6_happiness",
+        "6_you look nice today too ."
+      ],
+      [
+        "7_happiness",
+        "6_you look nice today too ."
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 26,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Well , I'm glad you're finally back . I was wondering what happened .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "I feel kind of stupid .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "Why ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "We got lost coming back . I guess I don't really know this town yet .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "You got lost . You're kidding !",
+        "speaker": "A",
+        "emotion": "surprise"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "No . We took a wrong turn somewhere . And Joseph doesn't know the town at all . So I started giving him directions . But I didn't really know where we were . So we got seriously lost .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "You could have called .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "I know I could have . But finally we asked someone where we were .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "You've been gone for two hours . How could you get lost for so long ?",
+        "speaker": "A",
+        "emotion": "surprise"
+      },
+      {
+        "utterance_ID": 10,
+        "text": "Guess where we ended up .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 11,
+        "text": "I don't know . Where ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 12,
+        "text": "When we finally decided to ask someone , they told us we were in Grangerfield .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 13,
+        "text": "Grangerfield ! You were in Grangerfield ? That's a completely different town ! How could you drive to a completely different town ?",
+        "speaker": "A",
+        "emotion": "surprise"
+      },
+      {
+        "utterance_ID": 14,
+        "text": "I don't know . The person we asked had to give us directions to the highway to get back here .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 15,
+        "text": "Grangerfield is like a dozen miles away from here .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 16,
+        "text": "I know it is . I don't know how it happened .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 17,
+        "text": "Hmm , maybe I do .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 18,
+        "text": "What ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 19,
+        "text": "Maybe I have an idea how it happened .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 20,
+        "text": "How ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 21,
+        "text": "You were too busy looking at Joseph , and you weren't paying attention to the road .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 22,
+        "text": "Oh , that's what you think , huh ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "1_happiness",
+        "1_you're finally back ."
+      ],
+      [
+        "5_surprise",
+        "4_We got lost coming back ."
+      ],
+      [
+        "9_surprise",
+        "9_You've been gone for two hours . How could you get lost for so long ?"
+      ],
+      [
+        "13_surprise",
+        "12_they told us we were in Grangerfield ."
+      ],
+      [
+        "13_surprise",
+        "13_How could you drive to a completely different town ?"
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 27,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Oh , come on , Ultraman !",
+        "speaker": "A",
+        "emotion": "anger"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "What's up , Bro ? What's in the bulletin ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "It says that there will be a blackout from 5 p . m . to 7 p . m . in our neighborhood today .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "Blackout ? Even the TV has the limit .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "Don't you know you will look like a monster in the blackout ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "Oops , no , Daddy can't watch American Idol , either !",
+        "speaker": "B",
+        "emotion": "anger"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "That's not the point . Come on , can you imagine that there will be no electricity on such a hot day ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "Oh , my god ! No air-conditioner !",
+        "speaker": "B",
+        "emotion": "fear"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "OK , since you are the smart one , can you come up with a better plan ? So that we won't be baked like cookies here .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 10,
+        "text": "How about playing Barbie out there in the neighborhood ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 11,
+        "text": "Barbie ? You know , I might be seven , but I'm not a girl .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 12,
+        "text": "Do you have a better plan ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 13,
+        "text": "All right , all right .",
+        "speaker": "A",
+        "emotion": "neutral"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "6_anger",
+        "3_there will be a blackout"
+      ],
+      [
+        "6_anger",
+        "6_Daddy can't watch American Idol ,"
+      ],
+      [
+        "8_fear",
+        "7_there will be no electricity on such a hot day ?"
+      ],
+      [
+        "8_fear",
+        "8_No air-conditioner !"
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 28,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Hey ! I just bought one of those new Japanese cell phones ! It's loaded with extras .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "What does it do ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "It's got a built-in video camera so you can see the person you're talking to . It also takes stills and I can use the E-mail mode to send digital pictures straight to my friend's phone !",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "Wow ! What else does it do ?",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "I can plug it into a folding keyboard to type in message mode . l can even surf the net .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "Cool ! Anything else ?",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "Yes . With the 600 - second digital memory , l can record my voice and send it using voice message mode .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "Wow !",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "You'll love this ! I can use a stylus to draw a map on the touch screen and then use the fax mode to send it to another phone .",
+        "speaker": "A",
+        "emotion": "happiness"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "1_happiness",
+        "1_It's loaded with extras ."
+      ],
+      [
+        "3_happiness",
+        "1_It's loaded with extras ."
+      ],
+      [
+        "3_happiness",
+        "3_It's got a built-in video camera so you can see the person you're talking to . It also takes stills and I can use the E-mail mode to send digital pictures straight to my friend's phone !"
+      ],
+      [
+        "4_happiness",
+        "3_It's got a built-in video camera so you can see the person you're talking to . It also takes stills and I can use the E-mail mode to send digital pictures straight to my friend's phone !"
+      ],
+      [
+        "6_happiness",
+        "3_It's got a built-in video camera so you can see the person you're talking to . It also takes stills and I can use the E-mail mode to send digital pictures straight to my friend's phone !"
+      ],
+      [
+        "6_happiness",
+        "5_I can plug it into a folding keyboard to type in message mode . l can even surf the net ."
+      ],
+      [
+        "8_happiness",
+        "3_It's got a built-in video camera so you can see the person you're talking to . It also takes stills and I can use the E-mail mode to send digital pictures straight to my friend's phone !"
+      ],
+      [
+        "8_happiness",
+        "5_I can plug it into a folding keyboard to type in message mode . l can even surf the net ."
+      ],
+      [
+        "8_happiness",
+        "7_Yes . With the 600 - second digital memory , l can record my voice and send it using voice message mode ."
+      ],
+      [
+        "9_happiness",
+        "9_You'll love this !"
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 29,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Hello . I sent out my laundry yesterday . Aren ' t they ready ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "They'll be ready by this afternoon .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "Oh , no ! I'm leaving for Japan at 11 this morning .",
+        "speaker": "A",
+        "emotion": "surprise"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "Is that right ? We're very sorry .",
+        "speaker": "B",
+        "emotion": "sadness"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "I thought it was \" the same day \" service . Anyway , please do hurry .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "I'm afraid we can't return it by 11 o'clock .",
+        "speaker": "B",
+        "emotion": "sadness"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "Well , then , would you send it to Japan , please ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "Yes , we'll do so .",
+        "speaker": "B",
+        "emotion": "neutral"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "3_surprise",
+        "1_my laundry"
+      ],
+      [
+        "3_surprise",
+        "2_ready by this afternoon ."
+      ],
+      [
+        "3_surprise",
+        "3_I'm leaving for Japan at 11 this morning ."
+      ],
+      [
+        "4_sadness",
+        "1_my laundry"
+      ],
+      [
+        "4_sadness",
+        "2_ready by this afternoon ."
+      ],
+      [
+        "4_sadness",
+        "3_I'm leaving for Japan at 11 this morning ."
+      ],
+      [
+        "6_sadness",
+        "1_my laundry"
+      ],
+      [
+        "6_sadness",
+        "2_ready by this afternoon ."
+      ],
+      [
+        "6_sadness",
+        "3_I'm leaving for Japan at 11 this morning ."
+      ],
+      [
+        "6_sadness",
+        "6_we can't return it by 11 o'clock ."
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 30,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "I'm very worried , doctor . I'm afraid that I'm very ill .",
+        "speaker": "A",
+        "emotion": "sadness"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "Why do you think so ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "Because I feel tired all the time , even when I wake up in the morning . I find it very difficult to do any work . I have no appetite .",
+        "speaker": "A",
+        "emotion": "sadness"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "How do you sleep ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "Very badly , doctor .",
+        "speaker": "A",
+        "emotion": "sadness"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "Are you worried about anything ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "Well , yes , I am . I'm worried about my work . I've just taken a new job . I earn a lot of money but it's difficult work . I'm always afraid of making a mistake .",
+        "speaker": "A",
+        "emotion": "sadness"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "Well , there's nothing much wrong with you . You're under too much pressure .",
+        "speaker": "B",
+        "emotion": "neutral"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "1_sadness",
+        "1_I'm afraid that I'm very ill ."
+      ],
+      [
+        "3_sadness",
+        "1_I'm afraid that I'm very ill ."
+      ],
+      [
+        "3_sadness",
+        "3_Because I feel tired all the time , even when I wake up in the morning . I find it very difficult to do any work . I have no appetite ."
+      ],
+      [
+        "5_sadness",
+        "4_How do you sleep ?"
+      ],
+      [
+        "5_sadness",
+        "5_Very badly"
+      ],
+      [
+        "7_sadness",
+        "7_I'm worried about my work . I've just taken a new job . I earn a lot of money but it's difficult work . I'm always afraid of making a mistake ."
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 31,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Hi , Francis , how was your business trip ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "It was a nightmare .",
+        "speaker": "B",
+        "emotion": "sadness"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "What ' s up ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "Actually , the business trip itself was very successful . We arrived on time , we had nice conversations and we settled some important issues for the next year .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "Sounds quite fruitful , why do you call it still a nightmare then ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "Well , the air line lost my luggage on the return flight and then I lost my carry on bag when I was tackling with the officers in charge . I left the airport three hours later than I expected and then I was caught in a traffic jam . When I finally got home , I was totally exhausted . But I found the elevator was out of service due to a blackout .",
+        "speaker": "B",
+        "emotion": "sadness"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "This is really a sad story . Did they trace back your luggage ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "I am still waiting for their call .",
+        "speaker": "B",
+        "emotion": "sadness"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "Take it easy , all sufferings have their reward .",
+        "speaker": "A",
+        "emotion": "neutral"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "2_sadness",
+        "1_your business trip ?"
+      ],
+      [
+        "2_sadness",
+        "2_It was a nightmare ."
+      ],
+      [
+        "6_sadness",
+        "6_Well , the air line lost my luggage on the return flight and then I lost my carry on bag when I was tackling with the officers in charge . I left the airport three hours later than I expected and then I was caught in a traffic jam . When I finally got home , I was totally exhausted . But I found the elevator was out of service due to a blackout ."
+      ],
+      [
+        "8_sadness",
+        "6_Well , the air line lost my luggage on the return flight and then I lost my carry on bag when I was tackling with the officers in charge . I left the airport three hours later than I expected and then I was caught in a traffic jam . When I finally got home , I was totally exhausted . But I found the elevator was out of service due to a blackout ."
+      ],
+      [
+        "8_sadness",
+        "8_I am still waiting for their call ."
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 32,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "How slowly you drive !",
+        "speaker": "A",
+        "emotion": "anger"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "I'm sorry . Something is wrong with my taxi .",
+        "speaker": "B",
+        "emotion": "sadness"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "Where does it go wrong ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "Let me stop my car for check . Oh , my god . I got a flat tyre .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "Can it keep going ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "Sorry . You'd better get off for taking another taxi .",
+        "speaker": "B",
+        "emotion": "sadness"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "1_anger",
+        "1_How slowly you drive !"
+      ],
+      [
+        "2_sadness",
+        "1_How slowly you drive !"
+      ],
+      [
+        "2_sadness",
+        "2_Something is wrong with my taxi ."
+      ],
+      [
+        "6_sadness",
+        "5_Can it keep going ?"
+      ],
+      [
+        "6_sadness",
+        "6_You'd better get off for taking another taxi ."
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 33,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "I am a student in Cambridge University . I read your ad , I want to know something more about your room , please ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "It's a big bedroom with a drawing room , facing a beautiful wood .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "Is there a bathroom ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "No , but there is one downstairs , which my daughter used some years ago .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "It sounds good . Could I go and see it myself ?",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "Certainly , you're welcome anytime .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "See you later !",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "( after a while ) Good afternoon , Mrs . Smith . I called you just now .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "Welcome ! Come in , please !",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 10,
+        "text": "Yes .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 11,
+        "text": "This way please . Your room is upstairs ... Here it is .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 12,
+        "text": "Wonderful ! A modest , comfortable room . Ah , a beautiful window , through which I can see a beautiful scene , and hear the birds singing . How nice !",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 13,
+        "text": "Yes , if you want to wash something , there is a separate lavatory room outside .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 14,
+        "text": "Excellent ! I like it ! When can I move in ?",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 15,
+        "text": "Anytime you like .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 16,
+        "text": "OK .",
+        "speaker": "B",
+        "emotion": "happiness"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "5_happiness",
+        "2_It's a big bedroom with a drawing room , facing a beautiful wood ."
+      ],
+      [
+        "5_happiness",
+        "4_No , but there is one downstairs , which my daughter used some years ago ."
+      ],
+      [
+        "9_happiness",
+        "8_I called you just now"
+      ],
+      [
+        "12_happiness",
+        "12_A modest , comfortable room . Ah , a beautiful window , through which I can see a beautiful scene , and hear the birds singing ."
+      ],
+      [
+        "14_happiness",
+        "12_A modest , comfortable room . Ah , a beautiful window , through which I can see a beautiful scene , and hear the birds singing ."
+      ],
+      [
+        "14_happiness",
+        "13_Yes , if you want to wash something , there is a separate lavatory room outside ."
+      ],
+      [
+        "16_happiness",
+        "15_Anytime you like ."
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 34,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "What time is it ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "Ten to nine .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "Your watch is ten minutes slow . So it's should be nine sharp . I'm gonna be late again . What will be my excuse this time ? It should be set the alarm for seven thirty .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "Don't cry over spilled milk , Fred ? Could you stay with me a few minutes ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "What ? Why ? What's wrong with you ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "I just hate being alone at home with nothing to do about listen to the clock ticking . It ' s so lonely and boring . My sickness makes it worse . When will I recover ?",
+        "speaker": "B",
+        "emotion": "sadness"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "You will be fine in the couple of month , just be patient . I've got to woke now , I'll be late .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "You only care about your work .",
+        "speaker": "B",
+        "emotion": "sadness"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "Sorry , baby , you are everything to me . all I do just for our family .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 10,
+        "text": "Stay just a few minutes longer , OK ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 11,
+        "text": "OK , I'll leave at 9:15 , Is that all right ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 12,
+        "text": "Yes .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 13,
+        "text": "I'll spent more time with you in the future , Dina .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 14,
+        "text": "Thank you .",
+        "speaker": "B",
+        "emotion": "happiness"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "6_sadness",
+        "6_being alone at home with nothing to do about listen to the clock ticking . It ' s so lonely and boring . My sickness makes it worse ."
+      ],
+      [
+        "8_sadness",
+        "8_You only care about your work ."
+      ],
+      [
+        "12_happiness",
+        "11_I'll leave at 9:15 ,"
+      ],
+      [
+        "14_happiness",
+        "13_I'll spent more time with you in the future ,"
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 35,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "My name is Mary , and I will be your waitress tonight .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "Thank you , Mary . We have been looking forward to trying out this restaurant .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "Before your main course , would you like to order an appetizer ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "Sure , that sounds great . Where are your appetizers listed ?",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "There is a special appetizer menu right here in the center of the table .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "The chicken and cheese quesadilla looks good . Is that pretty good ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "You know , that is one of my favorites !",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "OK , I'll take one order of that .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "You could choose another appetizer for half price to share .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 10,
+        "text": "Perfect ! Please add on an order of onion rings .",
+        "speaker": "B",
+        "emotion": "happiness"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "2_happiness",
+        "1_I will be your waitress tonight ."
+      ],
+      [
+        "2_happiness",
+        "2_We have been looking forward to trying out this restaurant ."
+      ],
+      [
+        "4_happiness",
+        "1_I will be your waitress tonight ."
+      ],
+      [
+        "4_happiness",
+        "2_We have been looking forward to trying out this restaurant ."
+      ],
+      [
+        "4_happiness",
+        "3_would you like to order an appetizer ?"
+      ],
+      [
+        "7_happiness",
+        "7_that is one of my favorites !"
+      ],
+      [
+        "10_happiness",
+        "9_another appetizer for half price"
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 36,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "I was really glad to hear about your award . Congratulations !",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "Thanks , Denise . Actually , I was really surprised . I mean , there were a lot of qualified people out there .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "Sure . But the work you did was really exceptional ! You definitely deserved it !",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "Thanks a lot . I expect to see your name nominated pretty soon , too . You ' Ve been doing some great work !",
+        "speaker": "B",
+        "emotion": "happiness"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "1_happiness",
+        "1_to hear about your award ."
+      ],
+      [
+        "2_happiness",
+        "1_I was really glad to hear about your award . Congratulations !"
+      ],
+      [
+        "2_happiness",
+        "1_award"
+      ],
+      [
+        "3_happiness",
+        "1_to hear about your award ."
+      ],
+      [
+        "4_happiness",
+        "3_Sure . But the work you did was really exceptional ! You definitely deserved it !"
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 37,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "What would you have ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "I'll try Chinese wine .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "What about this dry red ? It's good indeed , it never goes to the head .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "OK . Give me one , please .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "Here it is .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "Thank you .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "I'm always at your service .",
+        "speaker": "A",
+        "emotion": "happiness"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "4_happiness",
+        "3_It's good indeed ,"
+      ],
+      [
+        "5_happiness",
+        "4_Give me one ,"
+      ],
+      [
+        "6_happiness",
+        "3_It's good indeed ,"
+      ],
+      [
+        "6_happiness",
+        "5_Here it is ."
+      ],
+      [
+        "7_happiness",
+        "4_Give me one ,"
+      ],
+      [
+        "7_happiness",
+        "7_I'm always at your service ."
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 38,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "What are we going to do ? I can't get the car out of this ditch . I'm stuck !",
+        "speaker": "A",
+        "emotion": "anger"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "I'm worried , Tom . I haven't seen any other cars for almost an hour .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "I know . This is terrible . What can we do ? This snow doesn't stop falling !",
+        "speaker": "A",
+        "emotion": "anger"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "I told you we should have stayed in town today . The weather report said 100 percent chance of snow . Why did you want to come up here ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "I wanted to show you the cabin . We only had another half-hour to go .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "Well , now we're stuck . What can we do ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "I don't know .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "I've heard that when this happens , it's important to save energy .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "What do you mean ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 10,
+        "text": "We're stranded here , Tom . We may be here a long time . We need to conserve the gas in the car . The car's energy is what will keep us warm .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 11,
+        "text": "I have plenty of gas .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 12,
+        "text": "Yes , but the gas and the battery both have to stay working . We can't just let the car run and run . If we do , it will die soon . Then we'll freeze .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 13,
+        "text": "So what can we do ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 14,
+        "text": "Turn the lights off . Then , run the car and the heater only about fifteen minutes every hour . That will conserve the heat as long as possible .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 15,
+        "text": "Alright . That's a good idea .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 16,
+        "text": "I wish we hadn't come up here . Now we'll probably be here for days .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 17,
+        "text": "Days ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 18,
+        "text": "Yes , it happens . That is what happens in big snowstorms . People get stranded for days .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 19,
+        "text": "Oh , my God ! It's good we have food .",
+        "speaker": "A",
+        "emotion": "surprise"
+      },
+      {
+        "utterance_ID": 20,
+        "text": "Probably we'll survive . But turn the car off for about forty-five minutes . Then we'll turn it on again .",
+        "speaker": "B",
+        "emotion": "neutral"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "1_anger",
+        "1_I can't get the car out of this ditch . I'm stuck !"
+      ],
+      [
+        "3_anger",
+        "1_I can't get the car out of this ditch . I'm stuck !"
+      ],
+      [
+        "3_anger",
+        "2_I haven't seen any other cars for almost an hour ."
+      ],
+      [
+        "3_anger",
+        "3_This snow doesn't stop falling !"
+      ],
+      [
+        "15_happiness",
+        "8_I've heard that when this happens , it's important to save energy ."
+      ],
+      [
+        "15_happiness",
+        "10_We need to conserve the gas in the car . The car's energy is what will keep us warm ."
+      ],
+      [
+        "15_happiness",
+        "14_run the car and the heater only about fifteen minutes every hour . That will conserve the heat as long as possible ."
+      ],
+      [
+        "19_surprise",
+        "18_People get stranded for days ."
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 39,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "what happened ? Why didn't he win ?",
+        "speaker": "A",
+        "emotion": "surprise"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "didn't you hear ? He was disqualified .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "how did that happen ? He's so talented ! I thought he had a great chance of winning a gold medal !",
+        "speaker": "A",
+        "emotion": "surprise"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "if he didn't have any drug problems , he would have won .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "what ? What kind of drugs was he using ?",
+        "speaker": "A",
+        "emotion": "surprise"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "he was taking steroids to make him stronger and faster .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "I thought that all athletes were supposed to be regularly tested for drugs .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "they are . The reason why they didn't disqualify him until after the race is because the results from the text only came back afterwards .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "that's so disappointing . I don't know why top athletes would feel the need to take drugs .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 10,
+        "text": "I don't think it's right , but I can understand why they might . Imagine how much pressure there would be to win for your country !",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 11,
+        "text": "regardless of how much pressure you're under , there's never a good reason to take drugs .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 12,
+        "text": "I agree . Hopefully with the new regulations , fewer athletes will try to cheat with drugs .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 13,
+        "text": "let's hope so .",
+        "speaker": "A",
+        "emotion": "neutral"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "1_surprise",
+        "1_Why didn't he win ?"
+      ],
+      [
+        "3_surprise",
+        "2_He was disqualified ."
+      ],
+      [
+        "3_surprise",
+        "3_I thought he had a great chance of winning"
+      ],
+      [
+        "5_surprise",
+        "2_He was disqualified ."
+      ],
+      [
+        "5_surprise",
+        "3_I thought he had a great chance of winning"
+      ],
+      [
+        "5_surprise",
+        "4_if he didn't have any drug problems , he would have won ."
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 40,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Thank god you are open ! I have an emergency !",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "Hello , Mr . Henderson what can I do for you ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "I need this dress and this suit dry cleaned ASAP !",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "OK , I can have it ready by the end of the week .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "No , you don ' t understand , I need this tomorrow morning ! I accidentally spilled beer all over my wife ' s dress and we have a wedding to attend tomorrow ! She ' s gonna kill me !",
+        "speaker": "A",
+        "emotion": "fear"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "OK , I can have it ready tomorrow afternoon , but this suit is also very stained . I can ' t guarantee we can remove it completely .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "Fine ! Can you also iron and starch this shirt ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "Certainly .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "Great ! This is our secret ! If you see my wife , say nothing to her about this !",
+        "speaker": "A",
+        "emotion": "happiness"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "1_happiness",
+        "1_Thank god you are open !"
+      ],
+      [
+        "5_fear",
+        "5_She ' s gonna kill me !"
+      ],
+      [
+        "9_happiness",
+        "6_I can have it ready tomorrow afternoon ,"
+      ],
+      [
+        "9_happiness",
+        "8_Certainly ."
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 41,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Hi . I'm looking for a gift for my niece .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "Well , little girls seem to love Barbie dolls .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "That's perfect . I want to see one .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "Here you are -- she's called Digital Barbie .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "Oh , I like Digital Barbie ! How much does she cost ?",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "This Barbie is only $ 29 . 95 .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "That's perfect . Let me have her .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "Very good . Is there anything else you would like ?",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "No , that'll do it for now .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 10,
+        "text": "Including tax , your total will be $ 32 . 42 . Cash or charge ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 11,
+        "text": "Let me give you cash , please .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 12,
+        "text": "Here's your change and receipt . Thank you .",
+        "speaker": "B",
+        "emotion": "happiness"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "3_happiness",
+        "1_I'm looking for a gift for my niece ."
+      ],
+      [
+        "3_happiness",
+        "2_little girls seem to love Barbie dolls ."
+      ],
+      [
+        "3_happiness",
+        "3_That's perfect"
+      ],
+      [
+        "5_happiness",
+        "5_I like Digital Barbie !"
+      ],
+      [
+        "7_happiness",
+        "6_This Barbie is only $ 29 . 95 ."
+      ],
+      [
+        "7_happiness",
+        "7_That's perfect ."
+      ],
+      [
+        "8_happiness",
+        "7_Let me have her ."
+      ],
+      [
+        "12_happiness",
+        "6_This Barbie is only $ 29 . 95 ."
+      ],
+      [
+        "12_happiness",
+        "7_That's perfect ."
+      ],
+      [
+        "12_happiness",
+        "11_Let me give you cash ,"
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 42,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "I've been so tired recently . I've been trying , but I don't think I'm up to this job .",
+        "speaker": "A",
+        "emotion": "sadness"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "You need to take a break , maybe a vacation .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "Oh , yes , indeed . I've run out of steam . To be honest , I want to be in a different environment .",
+        "speaker": "A",
+        "emotion": "sadness"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "Is that so ?",
+        "speaker": "B",
+        "emotion": "surprise"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "Yes , I don't want to be stuck in a rut . I want to move on .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "Have you decided ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "Yes . I want to get a better job .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "Could you tell me why you want to quit ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "I quit just because of the dissatisfying salary and the trouble in getting along with my colleagues .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 10,
+        "text": "Oh , that's terrible . Do you want to get a higher salary in our company ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 11,
+        "text": "I'm afraid not . I've promised my girlfriend . We'll travel southwards to find a job that offers higher pay .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 12,
+        "text": "OK , I'd like to say that I've really enjoyed working with you . However , I think you should work harder for your new job and then you can ask for higher pay .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 13,
+        "text": "Thank you so much for your advice .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 14,
+        "text": "And every best wish for your new job .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 15,
+        "text": "Thank you .",
+        "speaker": "A",
+        "emotion": "neutral"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "1_sadness",
+        "1_I don't think I'm up to this job ."
+      ],
+      [
+        "3_sadness",
+        "1_I don't think I'm up to this job ."
+      ],
+      [
+        "3_sadness",
+        "3_I've run out of steam ."
+      ],
+      [
+        "3_sadness",
+        "3_I want to be in a different environment ."
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 43,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Guess what , Gilly ? I won both bids .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "Good for you . Did you use Paypal ?",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "Yeah . It was so easy and super-fast , once I figured it out .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "That's the beauty of it , and the danger .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "I should get the items within a week . But in the meantime I'm bidding on a digital video camera .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "How much ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "Thirty U . S . dollars ... and it's only been used for six months .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "Mmmm , sounds like risky business . Good luck .",
+        "speaker": "B",
+        "emotion": "happiness"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "1_happiness",
+        "1_I won both bids ."
+      ],
+      [
+        "2_happiness",
+        "1_I won both bids ."
+      ],
+      [
+        "4_happiness",
+        "3_It was so easy and super-fast , once I figured it out ."
+      ],
+      [
+        "8_happiness",
+        "5_I'm bidding on a digital video camera ."
+      ],
+      [
+        "8_happiness",
+        "7_Thirty U . S . dollars ... and it's only been used for six months ."
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 44,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Wow , this is amazing . I'm glad we've come here . So cool .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "I always love skiing . You know , it's a cool game for cool people . Stay with me and you will be cool , too .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "Hey , look over there . It seems that there is something interesting going on . Let's go and have a look .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "Sure . It's probably the skiing show . Adam told me there were many skiing clubs whose members put on shows to attract more visitors .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "See that . It's so dangerous . My mom would never allow me to do that .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "Hey , don't be so pathetic . It's a maximal sports show . What else can they do to attract more visitors ? Stop all this fuss and enjoy the show .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "You are right . But what if the avalanche happened ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "They are all very experienced and great skiers . So I suppose the chance for them to be buried by an avalanche is slim .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "Anyway , the show is breathtaking . By the way , where did they get so much snow in here ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 10,
+        "text": "Don't you know that ? Are you kidding me ?",
+        "speaker": "B",
+        "emotion": "surprise"
+      },
+      {
+        "utterance_ID": 11,
+        "text": "Hey , not everyone is as lucky as you to have a father who is a scientist .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 12,
+        "text": "Sorry . Well , they have the most advanced snowmaking machine .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 13,
+        "text": "Do you think the snowmaking may cause pollution ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 14,
+        "text": "It's possible . But the boss here said they were doing whatever they can .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 15,
+        "text": "It's a good thing . OK , let's go skiing .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 16,
+        "text": "Here we go .",
+        "speaker": "B",
+        "emotion": "neutral"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "1_happiness",
+        "1_this is amazing . I'm glad we've come here . So cool ."
+      ],
+      [
+        "2_happiness",
+        "1_this is amazing . I'm glad we've come here . So cool ."
+      ],
+      [
+        "2_happiness",
+        "2_I always love skiing ."
+      ],
+      [
+        "2_happiness",
+        "2_it's a cool game for cool people ."
+      ],
+      [
+        "3_happiness",
+        "1_this is amazing . I'm glad we've come here . So cool ."
+      ],
+      [
+        "3_happiness",
+        "3_there is something interesting going on ."
+      ],
+      [
+        "10_surprise",
+        "9_where did they get so much snow in here ?"
+      ],
+      [
+        "10_surprise",
+        "10_Don't you know that ?"
+      ],
+      [
+        "15_happiness",
+        "13_snowmaking may cause pollution ?"
+      ],
+      [
+        "15_happiness",
+        "14_the boss here said they were doing whatever they can ."
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 45,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Am I ever hungry ? When will supper be ready ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "It's almost ready . Can you set the table ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "All right .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "Want to taste this dish ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "Yeah . Oh , it's delicious !",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "Really ?",
+        "speaker": "B",
+        "emotion": "surprise"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "Definitely . It's a wonderful meal . Thank you , Honey .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "If you like to help me do the dishes , I'll be more dreadful .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "I wish I could , but I won't .",
+        "speaker": "A",
+        "emotion": "neutral"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "5_happiness",
+        "5_it's delicious !"
+      ],
+      [
+        "6_surprise",
+        "5_it's delicious !"
+      ],
+      [
+        "7_happiness",
+        "5_it's delicious !"
+      ],
+      [
+        "7_happiness",
+        "7_It's a wonderful meal ."
+      ],
+      [
+        "8_happiness",
+        "5_it's delicious !"
+      ],
+      [
+        "8_happiness",
+        "7_It's a wonderful meal . Thank you ,"
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 46,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Come on , fellows . Let's enjoy my wife's cooking !",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "Em , it's delicious !",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "Thank you ! My wife likes cooking very much .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "You're lucky .",
+        "speaker": "B",
+        "emotion": "happiness"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "1_happiness",
+        "1_Let's enjoy my wife's cooking !"
+      ],
+      [
+        "2_happiness",
+        "2_it's delicious !"
+      ],
+      [
+        "3_happiness",
+        "2_it's delicious !"
+      ],
+      [
+        "3_happiness",
+        "3_My wife likes cooking very much ."
+      ],
+      [
+        "4_happiness",
+        "2_it's delicious !"
+      ],
+      [
+        "4_happiness",
+        "3_My wife likes cooking very much ."
+      ]
+    ]
+  },
+  {
+    "conversation_ID": 47,
+    "conversation": [
+      {
+        "utterance_ID": 1,
+        "text": "Thank you for purchasing your new mattress with us .",
+        "speaker": "A",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 2,
+        "text": "No , thank you .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 3,
+        "text": "Would you like us to deliver the mattress for you , sir ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 4,
+        "text": "That would be great .",
+        "speaker": "B",
+        "emotion": "happiness"
+      },
+      {
+        "utterance_ID": 5,
+        "text": "When do you want it delivered ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 6,
+        "text": "I need it delivered tomorrow . Will that be possible ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 7,
+        "text": "What time exactly ?",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 8,
+        "text": "I need it delivered at 12 o'clock .",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 9,
+        "text": "We can have it to you at that time .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 10,
+        "text": "That's not a problem ?",
+        "speaker": "B",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 11,
+        "text": "We will deliver your mattress tomorrow at 12 o'clock .",
+        "speaker": "A",
+        "emotion": "neutral"
+      },
+      {
+        "utterance_ID": 12,
+        "text": "That's great ! Thank you very much .",
+        "speaker": "B",
+        "emotion": "happiness"
+      }
+    ],
+    "emotion-cause_pairs": [
+      [
+        "1_happiness",
+        "1_purchasing your new mattress with us ."
+      ],
+      [
+        "2_happiness",
+        "1_Thank you for purchasing your new mattress with us ."
+      ],
+      [
+        "4_happiness",
+        "3_Would you like us to deliver the mattress for you , sir ?"
+      ],
+      [
+        "12_happiness",
+        "6_I need it delivered tomorrow ."
+      ],
+      [
+        "12_happiness",
+        "8_I need it delivered at 12 o'clock ."
+      ],
+      [
+        "12_happiness",
+        "11_We will deliver your mattress tomorrow at 12 o'clock ."
+      ]
+    ]
+  }
+]
