@@ -167,7 +167,8 @@ def train_epoch(model, dataloader, optimizer, device, logger, args, pair_criteri
             if fgw_scores is None:
                 fgw_scores, _ = model.ot_head(
                     outputs['emotion_context'], outputs['cause_context'],
-                    outputs['edge_weights'], pair_indices, doc_len,
+                        outputs['edge_weights_e'], outputs['edge_weights_c'],
+                        pair_indices, doc_len,
                     pred_future_cause=getattr(args, 'pred_future_cause', False),
                     max_pair_distance=getattr(args, 'train_max_pair_distance', None)
                 )
@@ -467,7 +468,8 @@ def evaluate(model, dataloader, device, logger, args, pair_criterion=None):
                 fgw_scores = outputs.get('ot_pair_scores')
                 if fgw_scores is None:
                     fgw_scores, _ = model.ot_head(
-                        outputs['emotion_context'], outputs['cause_context'], outputs['edge_weights'],
+                        outputs['emotion_context'], outputs['cause_context'],
+                        outputs['edge_weights_e'], outputs['edge_weights_c'],
                         pair_indices, doc_len,
                         pred_future_cause=getattr(args, 'pred_future_cause', False),
                         max_pair_distance=getattr(args, 'eval_max_pair_distance', None)

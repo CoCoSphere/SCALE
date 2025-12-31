@@ -241,8 +241,19 @@ class DifferentiableFGWHead(nn.Module):
 
         return T
 
-    def forward(self, emotion_context, cause_context, edge_weights, pair_indices, doc_lengths,
-                pred_future_cause=False, max_pair_distance=None, row_cap: int | None = None, col_cap: int | None = None):
+    def forward(
+        self,
+        emotion_context,
+        cause_context,
+        edge_weights_e,
+        edge_weights_c,
+        pair_indices,
+        doc_lengths,
+        pred_future_cause=False,
+        max_pair_distance=None,
+        row_cap: int | None = None,
+        col_cap: int | None = None,
+    ):
                 
         device = emotion_context.device
         num_pairs = pair_indices.size(0)
@@ -267,9 +278,10 @@ class DifferentiableFGWHead(nn.Module):
             E_feat = emotion_context[conv_id, unique_emo]
             C_feat = cause_context[conv_id, unique_cau]
 
-            A_full = edge_weights[conv_id]
-            A_e = A_full.index_select(0, unique_emo).index_select(1, unique_emo)
-            A_c = A_full.index_select(0, unique_cau).index_select(1, unique_cau)
+            A_full_e = edge_weights_e[conv_id]
+            A_full_c = edge_weights_c[conv_id]
+            A_e = A_full_e.index_select(0, unique_emo).index_select(1, unique_emo)
+            A_c = A_full_c.index_select(0, unique_cau).index_select(1, unique_cau)
 
             # Direction and distance prior: construct allowed mask on (unique_emo, unique_cau) sub-grid
             e_pos = unique_emo.view(-1, 1).to(device)

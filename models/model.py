@@ -200,8 +200,10 @@ class Model(nn.Module):
         emotion_context = self.emotion_graph_encoder(x, speakers, doc_lengths, doc_mask)
         cause_context = self.cause_graph_encoder(x, speakers, doc_lengths, doc_mask)
 
-        # Build relational adjacency for R-GAT (use all relation types for FGW)
-        rel_types, rel_masks, rel_weights, edge_weights = self.emotion_graph_encoder.adjacency_builder.build_relational_adjacency(
+        # Build relational adjacency for FGW structure term.
+        # We construct two graphs (emotion-side and cause-side). They share the same rule-based
+        # edges (self/temporal/speaker) but may differ in KNN edges because KNN depends on node features.
+        _, _, _, edge_weights_e = self.emotion_graph_encoder.adjacency_builder.build_relational_adjacency(
             speakers, doc_lengths, max_doc_len,
             window_size=self.config.graph_window_size,
             use_speaker_edges=self.config.use_speaker_edges,
@@ -209,6 +211,18 @@ class Model(nn.Module):
             distance_decay=self.config.distance_decay,
             tau=self.config.graph_tau,
             node_features=emotion_context,
+            use_knn=getattr(self.config, 'rel_use_knn', True),
+            knn_k=getattr(self.config, 'rel_knn_k', 6),
+            knn_min_sim=getattr(self.config, 'rel_knn_min_sim', 0.5),
+        )
+        _, _, _, edge_weights_c = self.cause_graph_encoder.adjacency_builder.build_relational_adjacency(
+            speakers, doc_lengths, max_doc_len,
+            window_size=self.config.graph_window_size,
+            use_speaker_edges=self.config.use_speaker_edges,
+            use_temporal_edges=self.config.use_temporal_edges,
+            distance_decay=self.config.distance_decay,
+            tau=self.config.graph_tau,
+            node_features=cause_context,
             use_knn=getattr(self.config, 'rel_use_knn', True),
             knn_k=getattr(self.config, 'rel_knn_k', 6),
             knn_min_sim=getattr(self.config, 'rel_knn_min_sim', 0.5),
@@ -245,7 +259,7 @@ class Model(nn.Module):
         if self.ot_head is not None:
             ot_pair_scores, ot_transports = self.ot_head(
                 emotion_context, cause_context,
-                edge_weights,
+                edge_weights_e, edge_weights_c,
                 pair_indices,
                 doc_lengths,
                 pred_future_cause=getattr(self.config, 'pred_future_cause', False),
@@ -262,7 +276,11 @@ class Model(nn.Module):
             'cause_context': cause_context,
             'ot_pair_scores': ot_pair_scores,
             'ot_transports': ot_transports,
-            'edge_weights': edge_weights
+            # Keep both graphs for analysis/debugging and for any downstream use.
+            'edge_weights_e': edge_weights_e,
+            'edge_weights_c': edge_weights_c,
+            # Backward compatibility: keep the old key pointing to emotion-side graph.
+            'edge_weights': edge_weights_e,
         }
 
 

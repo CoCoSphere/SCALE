@@ -29,9 +29,9 @@ class Config:
         # Training hyperparameters
         self.parser.add_argument('--batch_size', type=int, default=128)
         self.parser.add_argument('--learning_rate', type=float, default=4e-5)
-        self.parser.add_argument('--weight_decay', type=float, default=4e-5)
+        self.parser.add_argument('--weight_decay', type=float, default=5e-4)
         self.parser.add_argument('--epochs', type=int, default=20)
-        self.parser.add_argument('--dropout', type=float, default=0.3)
+        self.parser.add_argument('--dropout', type=float, default=0.4)
 
         # Model architecture
         self.parser.add_argument('--hidden_dim', type=int, default=1024)
@@ -66,7 +66,7 @@ class Config:
         # Global decoding (MCMF) parameters
         self.parser.add_argument('--mcmf_row_capacity', type=int, default=2)
         self.parser.add_argument('--mcmf_col_capacity', type=int, default=3)
-        self.parser.add_argument('--mcmf_lambda', type=float, default=0.5, help='PC-bmatching threshold price in prob/logit space')
+        self.parser.add_argument('--mcmf_lambda', type=float, default=0.55, help='PC-bmatching threshold price in prob/logit space')
         self.parser.add_argument('--mcmf_score_space', type=str, default='prob', choices=['prob', 'logit'])
         self.parser.add_argument('--mcmf_eps', type=float, default=1e-6)
 
@@ -80,7 +80,7 @@ class Config:
         self.parser.add_argument('--pred_future_cause', action='store_true', default=False)
         self.parser.add_argument('--train_max_pair_distance', type=int, default=5)
         self.parser.add_argument('--eval_max_pair_distance', type=int, default=4)
-        self.parser.add_argument('--weight_ratio_cap', type=float, default=5.0)
+        self.parser.add_argument('--weight_ratio_cap', type=float, default=4.0)
 
         # Loss weights
         self.parser.add_argument('--emotion_weight', type=float, default=0.1)
